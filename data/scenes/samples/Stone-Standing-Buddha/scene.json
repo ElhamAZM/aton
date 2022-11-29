@@ -1,0 +1,28 @@
+{
+	"status": "complete",
+
+    "title": "Stone-Standing-Buddha",
+
+	"environment":{
+		"mainpano":{
+			"url": "samples/pano/hemi-grey.jpg",
+			"rotation": 0.0
+        },
+
+        "mainlightx":{
+            "direction": [-0.1,-1,-1],
+			"shadows": true
+        }
+	},
+
+    "scenegraph": {
+        "nodes": {
+            "atoncube":{
+                "urls": "samples/models/Stone-Standing-Buddha/Stone_Standing_Buddha.glb"
+            }
+        },
+        "edges": {
+            ".": ["atoncube"]
+        }
+    }
+}
