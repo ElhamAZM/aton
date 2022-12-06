@@ -1,0 +1,28 @@
+{
+	"status": "complete",
+
+    "title": "Sillabi",
+
+	"environment":{
+		"mainpano":{
+			"url": "samples/pano/hemi-grey.jpg",
+			"rotation": 0.0
+        },
+
+        "mainlightx":{
+            "direction": [-0.1,-1,-1],
+			"shadows": true
+        }
+	},
+
+    "scenegraph": {
+        "nodes": {
+            "atoncube":{
+                "urls": "samples/models/NT242_Sillabi_Monument_in_Bongpyeong_ri_DK.glb"
+            }
+        },
+        "edges": {
+            ".": ["atoncube"]
+        }
+    }
+}

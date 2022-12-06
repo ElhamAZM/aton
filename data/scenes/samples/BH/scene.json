@@ -1,0 +1,28 @@
+{
+	"status": "complete",
+
+    "title": "BH",
+
+	"environment":{
+		"mainpano":{
+			"url": "samples/pano/hemi-grey.jpg",
+			"rotation": 0.0
+        },
+
+        "mainlightx":{
+            "direction": [-0.1,-1,-1],
+			"shadows": true
+        }
+	},
+
+    "scenegraph": {
+        "nodes": {
+            "atoncube":{
+                "urls": "samples/models/BH_BukJiRy_MaAiBul_DK.glb"
+            }
+        },
+        "edges": {
+            ".": ["atoncube"]
+        }
+    }
+}
